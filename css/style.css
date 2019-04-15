@@ -47,7 +47,7 @@
   overflow-x:hidden;
 }
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
- h1,h2,h3,h4,h5,h6 {color:#292929; text-transform: uppercase;font-weight: 700;}
+ h1,h2,h3,h4,h5,h6 {color:#221F20;line-height:70px;font-weight: 700;}
  h1 {font-size: 48px;}
  h2 {font-size: 36px;}
  h3 {font-size: 28px;}
@@ -58,7 +58,7 @@
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
- img {max-width: 100%; display: block;}
+ img {display: block;}
 
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;}
  input,textarea {outline: none; box-shadow: none;-webkit-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
@@ -78,7 +78,7 @@
   border: 1px solid #fff;
     background: transparent;
     color: #fff;
-    background: #375099;
+    background: #5186ec;
     color: #fff;
     display: inline-block;
     font-size: 14px;
@@ -87,6 +87,8 @@
     text-transform: uppercase;
     border-radius: 0;
     transition: all 0.2s ease;
+    border-radius: 5px;
+    box-shadow: 0px 40x 0px rgba(196,196,196,0.25);
 }
 
 
@@ -194,7 +196,8 @@
   right: 0;
   z-index: 999;
   padding-top: 20px;
-  background-color: #f8f6f6;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 0px rgba(192,192,192,0.25);
 }
 .theme-main-menu .navbar-nav>li>a {
   text-transform: uppercase;
@@ -306,7 +309,8 @@
  ***/
 #upper-section{
   padding: 40px 0;
-  background-color:#fff;
+  background-color:rgba(255,255,255,0.94);
+  color: #221F20;
 }
 .counting ul li {
   display: inline-block;
@@ -327,13 +331,13 @@
 }
 .orange{
   background-color: #f07c22;
-  transform: skew(20deg);
+  transform: skew(-20deg);
   font-style: italic;
 }
 .green{
   background-color: green;
   margin-left: -7px;
-  transform: skew(20deg);
+  transform: skew(-20deg);
   font-style: italic;
 }
 .p-down{
@@ -343,7 +347,7 @@
 span {
   display: block;
   font-size: 15px;
-  color:#666;
+  color:#221F20;
   margin-top:10px;
 }
 
@@ -368,7 +372,9 @@ span {
 }
 
 .img-align{
-  margin-top: -14px;
+  margin-top: -33px;
+  margin-left: -66px;
+  width: 137%;
 }
 
 .post{
@@ -425,7 +431,7 @@ span {
 
  ***/
  #blog-section{
-   background-color: #f0eaea;
+   background-color: #fafafa;
  }
 #blog-section .single-news-item .img {
   overflow: hidden;

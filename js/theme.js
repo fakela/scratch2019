@@ -3,13 +3,13 @@
 
 
 // Prealoder
- function prealoader () {
-   if ($('#preloader_1').length) {
-     $('#preloader_1').fadeOut(); // will first fade out the loading animation
-     $('#loader-wrapper').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-     $('body').delay(350).css({'overflow':'visible'});
-  };
- }
+//  function prealoader () {
+//    if ($('#preloader_1').length) {
+//      $('#preloader_1').fadeOut(); // will first fade out the loading animation
+//      $('#loader-wrapper').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+//      $('body').delay(350).css({'overflow':'visible'});
+//   };
+//  }
 
 
 // placeholder remove
@@ -339,7 +339,7 @@ jQuery(window).on('load', function () {
     function makeTimer() {
 
       //		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");	
-        var endTime = new Date("29 April 2019 9:56:00 GMT+01:00");			
+        var endTime = new Date("17 June 2019 9:56:00 GMT+01:00");			
           endTime = (Date.parse(endTime) / 1000);
     
           var now = new Date();
